@@ -31,6 +31,7 @@
 		5643E1EE1C0D3907005D1A1C /* NAKPlaybackIndicatorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1EA1C0D3907005D1A1C /* NAKPlaybackIndicatorContentView.m */; };
 		5643E1EF1C0D3907005D1A1C /* NAKPlaybackIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1EC1C0D3907005D1A1C /* NAKPlaybackIndicatorView.m */; };
 		56DBB02B1C116A280089EC56 /* music_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 56DBB02A1C116A280089EC56 /* music_list.json */; };
+		64FA43B418998C01D87DB54E /* libPods-Enesco.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FB86460AD6971BF2882C78 /* libPods-Enesco.a */; };
 		A033FFA81CFEEADB00F53698 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A033FFA31CFEEADB00F53698 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A033FFA91CFEEADB00F53698 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A033FFA51CFEEADB00F53698 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A033FFAA1CFEEADB00F53698 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A033FFA71CFEEADB00F53698 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -215,6 +216,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		10FB86460AD6971BF2882C78 /* libPods-Enesco.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Enesco.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5643E14B1C0C2AEA005D1A1C /* Enesco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enesco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5643E14F1C0C2AEA005D1A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5643E1511C0C2AEA005D1A1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -519,6 +521,7 @@
 				A033FFBD1CFEED2E00F53698 /* AVFoundation.framework in Frameworks */,
 				A033FFBB1CFEED2500F53698 /* UIKit.framework in Frameworks */,
 				BC2E69091D606D3900ACB2CB /* libRDPDFLib.a in Frameworks */,
+				64FA43B418998C01D87DB54E /* libPods-Enesco.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +556,7 @@
 				A033FFBC1CFEED2E00F53698 /* AVFoundation.framework */,
 				A033FFBA1CFEED2500F53698 /* UIKit.framework */,
 				BC28EFC81D03C599004F80A5 /* NotificationCenter.framework */,
+				10FB86460AD6971BF2882C78 /* libPods-Enesco.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1374,7 +1378,7 @@
 		5643E1431C0C2AEA005D1A1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = aufree;
 				TargetAttributes = {
 					5643E14A1C0C2AEA005D1A1C = {
@@ -1982,14 +1986,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -2028,14 +2038,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
